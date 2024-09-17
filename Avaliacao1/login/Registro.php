@@ -36,7 +36,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 <body>
     <div class="wrapper">
         <h2>Cadastrar Solicitação</h2>
-        <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="post">
+        <form action=<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?> method="post">
             <label>Solicitação</label><br>
             <input type="text" name="solicitacao" required><br>
 
