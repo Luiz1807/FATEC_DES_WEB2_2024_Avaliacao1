@@ -30,9 +30,9 @@ $role = $_SESSION['role'];
             <a href="Registro.php" class="btn btn-info">Cadastrar Solicitações</a>
         <?php endif; ?>
         
-        <a href="Leitura.php" class="btn btn-info">Visualizar Solicitações</a>
+        <a href="Leitura.php" class="btn btn-info">Visualizar todas as Solicitações</a>
         <a href="ge.txt" class="btn btn-info">Visualizar solicitações GE</a>
-        <a href="dsm.txt" class="btn btn-info">Visualizar todas as solicitações DSM</a>
+        <a href="dsm.txt" class="btn btn-info">Visualizar solicitações DSM</a>
         <a href="logout.php" class="btn btn-danger">Sair</a>
     </div>
 </body>
